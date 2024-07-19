@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Josefin+Slab:ital,wght@1,700&display=swap');
+
+body {
+    font-family: 'Bungee Spice', cursive;
+    background-color: #060605;
+}
+#selecionar-mascota {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+  color: rgb(99, 188, 188);
+  font-size: 55px;
+}
+
+.subtitulo {
+   color: rgb(2, 2, 2);
+   font-size: 37px;
+}
+
+.pintura {
+    display: flex;
+}
+
+
+.tarjeta-dirty-place {
+    width: 277px;
+    height: 116px;
+    background-color: rgb(33, 42, 60);
+    padding: 8px;
+    box-sizing: border-box;
+    margin: 22px;
+    border: 2px solid rgb(11, 12, 12);
+    display: flex;
+    align-items: center;
+    border-radius: 17px;
+    font-size: 28px;
+    justify-content: space-around;
+}
+
+.tarjeta-dirty-place img {
+    width: 103px;
+    height: 115px;
+}
+
+input {
+    display: none;
+}
+
+#boton-mascota {
+    font-family: 'Josefin Slab', serif;
+    width: 155px;
+    height: 29px;
+    background-color: #EE9322;
+    padding: 5px;
+    box-sizing: border-box;
+    margin: 10px;
+    border: 6px solid #D83F31;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 19px;
+    font-size: 18px;
+    align-items: center;
+    box-shadow: 1px 0px 17px #ab0e0e;
+}
+
+#selecionar-ataque {
+    flex-direction: column;
+    align-items: center;
+}
+.color-boton {
+    flex-direction: column;
+    font-family: 'Josefin Slab', serif;
+    width: 155px;
+    height: 29px;
+    background-color: #EE9322;
+    padding: 5px;
+    box-sizing: border-box;
+    margin: 10px;
+    border: 6px solid #D83F31;
+    justify-content: space-evenly;
+    border-radius: 19px;
+    font-size: 18px;
+    align-items: center;
+    box-shadow: 1px 0px 17px #ab0e0e;
+}
+
+#resultado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #EE9322;
+    font-family: 'Josefin Slab', serif;
+    box-sizing: border-box;
+    border: 6px solid #D83F31;
+    border-radius: 19px;
+    margin-left: 349px;
+    margin-right: 352px;
+    width: 141px;
+    height: 44px;
+    font-size: 20px;
+    justify-content: space-around;
+    box-shadow: 1px 0px 17px #ab0e0e;
+}
+
+#boton-reiniciar {
+    flex-direction: column;
+    font-family: 'Josefin Slab', serif;
+    width: 101px;
+    height: 20px;
+    background-color: #EE9322;
+    padding: 6px;
+    box-sizing: border-box;
+    margin-right: 835px;
+    border: 3px solid #D83F31;
+    justify-content: center;
+    border-radius: 19px;
+    font-size: 18px;
+    align-items: center;
+    display: flex;
+    box-shadow: 1px 0px 17px #ab0e0e;
+}
+
+input:checked+label {
+    background-color: #000000;
+    color: rgb(131, 126, 124);
+    box-shadow: 1px 0px 17px #ab0e0e;
+  }
+
+.tramacasos {
+    display: grid;
+    grid-template-columns: 100px 100px;
+}
+
+.daddy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media (max-width: 400px) {
+    .pintura {
+        flex-direction: column;
+    }
+}
